@@ -6,7 +6,7 @@ namespace BackendChat.Api.Models.Entities
     public class User
     {
         [FirestoreDocumentId]
-        public int? UserId { get; set; }
+        public string? UserId { get; set; }
 
         [FirestoreProperty]
         public required string Name { get; set; }

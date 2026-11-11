@@ -6,7 +6,7 @@ namespace BackendChat.Api.Models.Entities
     public class Message
     {
         [FirestoreDocumentId]
-        public int? MessageId { get; set; }
+        public string? MessageId { get; set; }
 
         [FirestoreProperty]
         public string SenderId { get; set; } = string.Empty;
