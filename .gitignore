@@ -361,3 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/BackendChat/backendchat-16b27-firebase-adminsdk-fbsvc-672c6def5f.json
